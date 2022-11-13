@@ -1,0 +1,23 @@
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    padding-left: 10px;
+    height: 30px;
+    width: 30px;
+    transform: translate(0%, -50%);
+    border-radius: 50%;
+  }
+  
+  .close:hover {background: #ddd;}
+
+  .add-company-input
+  {
+    margin-top: 15px;
+  }
+
+  .filterCompanyList{
+    max-height: 50vh;
+    overflow-y: auto;
+  }

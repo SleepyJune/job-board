@@ -1,0 +1,74 @@
+.joblist-background {
+    background-color: #f3f4f6;
+}
+
+.job-frame {
+    padding: 15px;
+    overflow: visible;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.joblist {
+    box-shadow: 2px 0px 6px 2px rgba(0, 0, 0, 0.25);
+}
+
+.description-frame {
+    border-right: 1px solid grey;
+    position: fixed;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: calc(100% - 50px);
+    margin-right: 50px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 2px 0px 6px 2px rgba(0, 0, 0, 0.25);
+}
+
+.description-frame::-webkit-scrollbar {
+    display: none;
+}
+
+.description-top-bar {
+    background-color: #f5f5f5;
+}
+
+.description-inside {
+    margin: 10px;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.button-link {
+    background: none;
+    border: none;
+}
+
+.description-title {
+    border-bottom: 2px solid;
+}
+
+.job-actions-dropdown {
+    float: right;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.apply-button {
+    float: right;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.float-wall {
+    clear: both;
+}
+
+.div-no-results{
+    height: calc(100vh - 50px);
+    width: 100vh;
+}
+
+.text-no-results{
+    margin-left: 50px;
+}

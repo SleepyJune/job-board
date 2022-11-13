@@ -1,0 +1,22 @@
+.home-carousel {
+    width: 80%;
+    margin: auto;
+}
+
+.carousel-control-prev {
+    margin-left: -100px;
+}
+
+.carousel-control-next {
+    margin-right: -100px;
+}
+
+.carousel-caption{
+    background-color: #101010b9;
+    border-radius: 25px;
+}
+
+.carousel-caption p{
+    color:white;
+    font-size: 125%;
+}
